@@ -243,31 +243,171 @@ export const animeRecommendations: AnimeData[] = [
   {
     id: 9,
     title: "Vinland Saga",
-    description: "A young ninja seeks recognition from his peers and dreams of becoming the Hokage. An epic tale of friendship, perseverance, and never giving up on your dreams despite all obstacles.",
-    genre: ["Action", "Adventure", "Martial Arts"],
-    rating: 9.2,
-    year: 2002,
-    episodes: 720,
+    description: "A tale of revenge and redemption set in the age of Vikings. A young boy, Thorfinn, joins a band of mercenaries to avenge his father's death, only to become lost in a bloody cycle of violence. A profound story about the true meaning of being a warrior and finding peace in a world of war.",
+    genre: ["Action", "Adventure", "Drama", "Historical", "Seinen"],
+    rating: 8.8,
+    year: 2019,
+    episodes: 48,
     image: "https://i.pinimg.com/1200x/36/e0/3f/36e03fd786ddd0e2bd40f6e6ae31b474.jpg",
-    trailer: "https://www.youtube.com/watch?v=1dy2zPPrKD0",
+    trailer: "https://www.youtube.com/watch?v=f8JrZ7Q_p-8",
     videos: [
       {
         title: "Classic Trailer",
-        url: "https://www.youtube.com/watch?v=1dy2zPPrKD0",
+        url: "https://www.youtube.com/watch?v=f8JrZ7Q_p-8",
         type: "trailer"
       },
       {
-        title: "Shippuden Trailer",
-        url: "https://www.youtube.com/watch?v=EKiY7bvMjYg",
+        title: "Season 2 Trailer",
+        url: "https://www.youtube.com/watch?v=VHGotYh6hPM",
         type: "trailer"
       },
       {
         title: "Best Fights",
-        url: "https://www.youtube.com/watch?v=H69EWaMD-F4",
+        url: "https://www.youtube.com/watch?v=YBm6Iwsimps",
         type: "preview"
       }
     ]
-  }
+  },
+  {
+    id: 10,
+    title: "One Punch Man",
+    description: "Saitama is a hero who can defeat any opponent with a single punch, but his overwhelming strength has left him bored and unable to enjoy the thrill of battle. This action-comedy follows his mundane quest to find a worthy foe and the recognition he deserves in a world full of monsters and professional heroes.",
+    genre: ["Action", "Comedy", "Parody", "Sci-Fi", "Super Power"],
+    rating: 8.7,
+    year: 2015,
+    episodes: 24,
+    image: "https://i.pinimg.com/1200x/2b/27/c9/2b27c9d05ece71b1c536fb252d6e7e25.jpg",
+    trailer: "https://www.youtube.com/watch?v=Poo5lqoWSGw",
+    videos: [
+      {
+        title: "Classic Trailer",
+        url: "https://www.youtube.com/watch?v=Poo5lqoWSGw",
+        type: "trailer"
+      },
+      {
+        title: "Season 2 Trailer",
+        url: "https://www.youtube.com/watch?v=78ngg0SRlEI",
+        type: "trailer"
+      },
+      {
+        title: "Best Fights",
+        url: "https://www.youtube.com/watch?v=4AQdwNRNCRI",
+        type: "preview"
+      }
+    ]
+  },
+  {
+    id: 11,
+    title: "Wolf Children",
+    description: "After falling in love with a man who can transform into a wolf, Hana raises their two half-wolf, half-human children alone after his sudden death. Facing prejudice and the fear of discovery, she moves to the countryside to raise her unique children, Yuki and Ame, as they struggle to find their own path in the world and decide whether to live as humans or wolves.",
+    genre: ["Slice of Life", "Fantasy", "Drama", "Family"],
+    rating: 9.9,
+    year: 2012,
+    episodes: 1,
+    image: "https://i.pinimg.com/736x/3d/d1/ec/3dd1eca30d745dd89e4e092064c7f17c.jpg",
+    trailer: "https://www.youtube.com/watch?v=8xLji7WsW0w",
+    videos: [
+      {
+        title: "Classic Trailer",
+        url: "https://www.youtube.com/watch?v=8xLji7WsW0w",
+        type: "trailer"
+      },
+      {
+        title: "Mother Song ♥",
+        url: "https://www.youtube.com/watch?v=Le9UEgEuc_Q",
+        type: "trailer"
+      },
+      {
+        title: "Funny and Cute Moments",
+        url: "https://www.youtube.com/watch?v=QT7Jqn_tC2w",
+        type: "preview"
+      }
+    ]
+  },
+  {
+    id: 11,
+    title: "Weathering with You",
+    description: "A runaway high school boy, Hodaka, moves to Tokyo and befriends Hina, an orphaned girl who has the mysterious ability to control the weather and clear the sky. As they start a business offering sunny days for special occasions, they soon discover that her power comes with a great and tragic cost.",
+    genre: ["Romance", "Fantasy", "Drama", "Supernatural"],
+    rating: 9.0,
+    year: 2019,
+    episodes: 1,
+    image: "https://i.pinimg.com/736x/ca/dc/3b/cadc3b72499e1f4cdc3daadd27e5da75.jpg",
+    trailer: "https://www.youtube.com/watch?v=Q6iK6DjV_iE",
+    videos: [
+      {
+        title: "Classic Trailer",
+        url: "https://www.youtube.com/watch?v=Q6iK6DjV_iE",
+        type: "trailer"
+      },
+      {
+        title: "Grand Escape ♥",
+        url: "https://www.youtube.com/watch?v=YAXTn0E-Zgo",
+        type: "trailer"
+      },
+      {
+        title: "I want you more than any blue sky",
+        url: "https://www.youtube.com/watch?v=y0CZV9EZJ70",
+        type: "preview"
+      }
+    ]
+  },
+  {
+    id: 12,
+    title: "Grave of the Fireflies",
+    description: "In the final months of World War II, two siblings, Seita and his young sister Setsuko, struggle to survive in the aftermath of a firebombing that destroys their home and kills their mother. A devastatingly beautiful and heartbreaking tale of innocence lost, the brutal cost of war, and the unbreakable bond between a brother and sister.",
+    genre: ["Drama", "Historical", "Tragedy"],
+    rating: 9.9,
+    year: 1988,
+    episodes: 1,
+    image: "https://i.pinimg.com/736x/f0/f2/b7/f0f2b7393ae9020390505187525c56c9.jpg",
+    trailer: "https://www.youtube.com/watch?v=4vPeTSRd580",
+    videos: [
+      {
+        title: "Classic Trailer",
+        url: "https://www.youtube.com/watch?v=4vPeTSRd580",
+        type: "trailer"
+      },
+      {
+        title: "Main Theme",
+        url: "https://www.youtube.com/watch?v=0QF_OEeUIOE",
+        type: "trailer"
+      },
+      {
+        title: "Seita and Setsuko ♥",
+        url: "https://www.youtube.com/watch?v=R12yvIniLe4",
+        type: "preview"
+      }
+    ]
+  },
+  {
+    id: 13,
+    title: "Re: Zero - Starting Life in Another World",
+    description: "When Subaru Natsuki is suddenly summoned to a fantasy world, he thinks he's living the gamer's dream. But his newfound adventure turns into a nightmare when he discovers he has only one power: 'Return by Death,' a horrifying ability to loop back in time after each gruesome death. To protect the ones he loves, he must endure immense pain and suffering, dying again and again to get the future right.",
+    genre: ["Fantasy", "Psychological Thriller", "Drama", "Isekai", "Suspense"],
+    rating: 9.4,
+    year: 2016,
+    episodes: 50,
+    image: "https://i.pinimg.com/1200x/77/84/dc/7784dcec6213e525d8d44f85e87397b8.jpg",
+    trailer: "https://www.youtube.com/watch?v=65BiDF9YdGg",
+    videos: [
+      {
+        title: "Classic Trailer",
+        url: "https://www.youtube.com/watch?v=65BiDF9YdGg",
+        type: "trailer"
+      },
+      {
+        title: "Subaru's Speech - I hate myself",
+        url: "https://www.youtube.com/watch?v=1zVh0p6FEdE",
+        type: "trailer"
+      },
+      {
+        title: "Rem's confession ♥",
+        url: "https://www.youtube.com/watch?v=9sELPTA9vb8",
+        type: "preview"
+      }
+    ]
+  },
 ];
 
 export const getAllGenres = (): string[] => {
