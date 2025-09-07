@@ -325,7 +325,7 @@ export const animeRecommendations: AnimeData[] = [
     ]
   },
   {
-    id: 11,
+    id: 12,
     title: "Weathering with You",
     description: "A runaway high school boy, Hodaka, moves to Tokyo and befriends Hina, an orphaned girl who has the mysterious ability to control the weather and clear the sky. As they start a business offering sunny days for special occasions, they soon discover that her power comes with a great and tragic cost.",
     genre: ["Romance", "Fantasy", "Drama", "Supernatural"],
@@ -353,7 +353,7 @@ export const animeRecommendations: AnimeData[] = [
     ]
   },
   {
-    id: 12,
+    id: 13,
     title: "Grave of the Fireflies",
     description: "In the final months of World War II, two siblings, Seita and his young sister Setsuko, struggle to survive in the aftermath of a firebombing that destroys their home and kills their mother. A devastatingly beautiful and heartbreaking tale of innocence lost, the brutal cost of war, and the unbreakable bond between a brother and sister.",
     genre: ["Drama", "Historical", "Tragedy"],
@@ -381,7 +381,7 @@ export const animeRecommendations: AnimeData[] = [
     ]
   },
   {
-    id: 13,
+    id: 14,
     title: "Re: Zero - Starting Life in Another World",
     description: "When Subaru Natsuki is suddenly summoned to a fantasy world, he thinks he's living the gamer's dream. But his newfound adventure turns into a nightmare when he discovers he has only one power: 'Return by Death,' a horrifying ability to loop back in time after each gruesome death. To protect the ones he loves, he must endure immense pain and suffering, dying again and again to get the future right.",
     genre: ["Fantasy", "Psychological Thriller", "Drama", "Isekai", "Suspense"],
