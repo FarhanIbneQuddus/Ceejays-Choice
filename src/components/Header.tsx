@@ -39,7 +39,7 @@ const Header: React.FC<HeaderProps> = ({
         <div className="text-center mb-12">
           <div className="flex items-center justify-center gap-3 mb-4">
             <div className="p-3 bg-white/10 backdrop-blur-sm rounded-2xl">
-              <img src="public\logo.png" alt="" width={500} height={500}/>
+              <img src="public/logo.png" alt="" width={500} height={500}/>
             </div>
           </div>
           <p className="text-xl text-white/80 max-w-2xl mx-auto leading-relaxed">
