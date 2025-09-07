@@ -20,7 +20,7 @@ function App() {
   }, [searchTerm, selectedGenre]);
 //style="background-image: url('bgImage.png');"
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100" style={{ backgroundImage: "linear-gradient(rgba(10, 10, 10, 0.8), rgba(183, 0, 255, 0.4)), url('public/bgImage.png')",backgroundSize: '100%', backgroundPosition: 'center 40%', width: '100vw' }}>
+    <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100" style={{ backgroundImage: "linear-gradient(rgba(10, 10, 10, 0.8), rgba(183, 0, 255, 0.4)), url('/bgImage.png')",backgroundSize: '100%', backgroundPosition: 'center 40%', width: '100vw' }}>
       <Header 
         searchTerm={searchTerm}
         onSearchChange={setSearchTerm}
