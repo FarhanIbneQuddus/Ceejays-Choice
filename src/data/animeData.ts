@@ -14,7 +14,7 @@ export interface AnimeData {
     type: 'trailer' | 'episode' | 'preview';
   }>;
 }
-//place i got the card images   https://www.pinterest.com/pin/268667934017452802/
+
 export const animeRecommendations: AnimeData[] = [
   {
     id: 1,
@@ -408,8 +408,64 @@ export const animeRecommendations: AnimeData[] = [
       }
     ]
   },
+  {
+    id: 15,
+    title: "Tokyo Ghoul",
+    description: "In a world where flesh-eating ghouls secretly live among humans, college student Kaneki's life changes forever after a deadly encounter with one. Transformed into a half-ghoul, he is forced to navigate the violent clash between humans and ghouls while struggling to retain his fading humanity. As he learns the truth about both sides, Kaneki faces agonizing choices that blur the line between monster and man.",
+    genre: ["Fantasy", "Psychological Thriller", "Horror", "Drama", "Action"],
+    rating: 9.0,
+    year: 2014,
+    episodes: 12,
+    image: "https://i.pinimg.com/1200x/60/d9/5e/60d95eb7697426614aa6e767b941ada2.jpg",
+    trailer: "https://www.youtube.com/watch?v=vGuQeQsoRgU",
+    videos: [
+      {
+        title: "Classic Trailer",
+        url: "https://www.youtube.com/watch?v=vGuQeQsoRgU",
+        type: "trailer"
+      },
+      {
+        title: "GOAT OP",
+        url: "https://www.youtube.com/watch?v=7aMOurgDB-o",
+        type: "trailer"
+      },
+      {
+        title: "Kaneki & Rize",
+        url: "https://www.youtube.com/watch?v=N6Ydn4-otto",
+        type: "preview"
+      }
+    ]
+  },
+  {
+    id: 16,
+    title: "Monster",
+    description: "Dr. Kenzo Tenma, a brilliant Japanese neurosurgeon living in Germany, faces a moral crossroads when he chooses to save a young boy’s life over a prominent politician’s. Years later, the boy grows up to be a ruthless serial killer named Johan Liebert, and Tenma finds himself on a harrowing journey across Europe to stop the monster he once saved. A gripping tale of morality, obsession, and the darkness within the human soul.",
+    genre: ["Psychological Thriller", "Mystery", "Crime", "Drama", "Suspense"],
+    rating: 9.0,
+    year: 2004,
+    episodes: 74,
+    image: "https://i.pinimg.com/736x/23/0d/6d/230d6de8cdb23940c8d593f759f475d1.jpg",
+    trailer: "https://www.youtube.com/watch?v=9aS-EgdAq6U",
+    videos: [
+      {
+        title: "Classic Trailer",
+        url: "https://www.youtube.com/watch?v=9aS-EgdAq6U",
+        type: "trailer"
+      },
+      {
+        title: "Dr. Tenma 😢",
+        url: "http://youtube.com/watch?v=QE7NEendVrc",
+        type: "trailer"
+      },
+      {
+        title: "Johan Liebert's Words || Birth",
+        url: "https://www.youtube.com/watch?v=CQKv4mXmOsE",
+        type: "preview"
+      }
+    ]
+  }
 ];
-
+//place i got the card images   https://www.pinterest.com/pin/268667934017452802/
 export const getAllGenres = (): string[] => {
   const genreSet = new Set<string>();
   animeRecommendations.forEach(anime => {
